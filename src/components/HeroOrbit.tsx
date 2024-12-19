@@ -1,4 +1,3 @@
-import StarIcon from "@/assets/icons/star.svg";
 import { PropsWithChildren } from "react";
 
 export function HeroOrbit({ 
@@ -11,9 +10,9 @@ export function HeroOrbit({
 }>
 ) {
     return (
-        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 ">
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
             <div 
-                className=""
+                className="flex items-start justify-start"
                 style={{
                     height: `${size}px`,
                     width: `${size}px`,
@@ -26,6 +25,7 @@ export function HeroOrbit({
                         transform: `rotate(${rotation * -1}deg)`
                     }}
                 >
+                     {/* animate-spin [animation-duration:30s] */}
                     {children}
                 </div>
             </div>
