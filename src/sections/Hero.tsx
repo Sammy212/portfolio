@@ -9,7 +9,7 @@ import { HeroOrbit } from "@/components/HeroOrbit";
 
 
 
-export default function Hero() {
+export function Hero() {
     return (
         <div className="py-32 md:py-48 lg:py-[180px] relative z-0 overflow-clip">
             <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FaGithub, FaLink } from "react-icons/fa";
 import grainImage from "@/assets/images/grain.jpg";
 
-export default function Projects() {
+export function Projects() {
   return (
     <section className="pb-16 lg:py-24">
       <div className="container">

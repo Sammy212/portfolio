@@ -107,7 +107,21 @@ export const myProjects = [
     githubLink: "https://github.com/Sammy212/shoplux-next",
     image: ShopLux,
   },
-
 ];
 
+export const myStrengths = [
+  "Communicative",
+  "Active Listener",
+  "Creativity",
+  "Scrupulous",
+  "Versatility",
+  "Trustworthiness",
+  "Punctuality",
+  "Detail-oriented",
+  "Logical thinking",
+  "Results driven",
+  "Teamwork",
+  "Project management",
+  "Time management",
+]
 
