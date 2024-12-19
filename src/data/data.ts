@@ -12,6 +12,38 @@ import Stripe from "@/assets/icons/stripe.webp";
 
 export const myProjects = [
   {
+    id: 3,
+    title: "A Calendly Replica",
+    company: "Calendly",
+    year: "2024",
+    description: "A replica of Calendly built with Next 14, Nylas, Prisma, Postgres, Tailwind, Shadcn, Auth, Supabase",
+    techStacks: [
+      {
+        title: "React",
+        icon: ReactIcon,
+      },
+      {
+        title: "Calendly API",
+        icon: CalendlyIcon,
+      },
+      {
+        title: "Prisma",
+        icon: Prisma,
+      },
+      {
+        title: "Nodejs",
+        icon: Nodejs,
+      },
+      {
+        title: "Stripe API",
+        icon: Stripe,
+      },
+    ],
+    link: "https://calendly-theta.vercel.app/",
+    githubLink: "https://github.com/Sammy212/calendly",
+    image: Calendly,
+  },
+  {
     id: 1,
     title: "TheUnforsaken House Website Redesign",
     company: "TheUnforsaken House",
@@ -50,47 +82,32 @@ export const myProjects = [
     year: "2024",
     description: "Build a fullstack ecommerce web application using Next, Tailwind, Prisma, Redis, Neon, Stripe to accept payment and zod for form validation ",
     techStacks: [
-        {
-            title: "NextJs",
-            icon: Next,
-          },
-          {
-            title: "Stripe API",
-            icon: CalendlyIcon,
-          },
-          {
-            title: "Prisma",
-            icon: Prisma,
-          },
+      {
+        title: "React",
+        icon: ReactIcon,
+      },
+      {
+        title: "Calendly API",
+        icon: CalendlyIcon,
+      },
+      {
+        title: "Prisma",
+        icon: Prisma,
+      },
+      {
+        title: "Nodejs",
+        icon: Nodejs,
+      },
+      {
+        title: "Stripe API",
+        icon: Stripe,
+      },
     ],
     link: "https://shoplux-next.vercel.app/",
     githubLink: "https://github.com/Sammy212/shoplux-next",
     image: ShopLux,
   },
-  {
-    id: 3,
-    title: "A Calendly Replica",
-    company: "Calendly",
-    year: "2024",
-    description: "A replica of Calendly built with Next 14, Nylas, Prisma, Postgres, Tailwind, Shadcn, Auth, Supabase",
-    techStacks: [
-        {
-            title: "React",
-            icon: ReactIcon,
-          },
-          {
-            title: "Calendly",
-            icon: CalendlyIcon,
-          },
-          {
-            title: "Prisma",
-            icon: Prisma,
-          },
-    ],
-    link: "https://calendly-theta.vercel.app/",
-    githubLink: "https://github.com/Sammy212/calendly",
-    image: Calendly,
-  },
+
 ];
 
 
