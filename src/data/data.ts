@@ -1,44 +1,96 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import ShopLux from "@/assets/images/shoplux.png";
+import TheUnforsaken from "@/assets/images/theunforsaken.png";
+import Calendly from "@/assets/images/calendly.png";
+import Prisma from "@/assets/icons/prisma.png";
+import Next from "@/assets/icons/next-js.png";
+import ReactIcon from "@/assets/icons/react.png";
+import Tailwind from "@/assets/icons/tailwind.png";
+import TypeScript from "@/assets/icons/typescript.png";
+import CalendlyIcon from "@/assets/icons/Calendly-icon.png";
+import Nodejs from "@/assets/icons/node-js-icon.png";
+import Stripe from "@/assets/icons/stripe.webp";
 
 export const myProjects = [
   {
-    title: "TheUnforsaken",
+    id: 1,
+    title: "TheUnforsaken House Website Redesign",
+    company: "TheUnforsaken House",
     year: "2024",
-    description: "The Unforsaken-House of Hephzibah",
-    results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+    description: "Redesigned a clinical psychology website in React, enhancing user experience, brand identity, and client engagement. As Product Manager and Lead Developer, I led a team to craft a welcoming, accessible interface with improved navigation and a new logo.",
+    techStacks: [
+      {
+        title: "React",
+        icon: ReactIcon,
+      },
+      {
+        title: "Calendly API",
+        icon: CalendlyIcon,
+      },
+      {
+        title: "Prisma",
+        icon: Prisma,
+      },
+      {
+        title: "Nodejs",
+        icon: Nodejs,
+      },
+      {
+        title: "Stripe API",
+        icon: Stripe,
+      },
     ],
     link: "https://theunforsaken.org",
-    image: darkSaasLandingPage,
+    githubLink: "https://github.com/Sammy212/shoplux-next",
+    image: TheUnforsaken,
   },
   {
-    title: "shopLux",
+    id: 2,
+    title: "shopLux Fullstack Development Project",
+    company: "shopLux",
     year: "2024",
-    description: "Light Saas Landing Page",
-    results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+    description: "Build a fullstack ecommerce web application using Next, Tailwind, Prisma, Redis, Neon, Stripe to accept payment and zod for form validation ",
+    techStacks: [
+        {
+            title: "NextJs",
+            icon: Next,
+          },
+          {
+            title: "Stripe API",
+            icon: CalendlyIcon,
+          },
+          {
+            title: "Prisma",
+            icon: Prisma,
+          },
     ],
     link: "https://shoplux-next.vercel.app/",
     githubLink: "https://github.com/Sammy212/shoplux-next",
-    image: lightSaasLandingPage,
+    image: ShopLux,
   },
   {
-    title: "Calendly",
+    id: 3,
+    title: "A Calendly Replica",
+    company: "Calendly",
     year: "2024",
-    description: "A Calendly Replica",
-    results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+    description: "A replica of Calendly built with Next 14, Nylas, Prisma, Postgres, Tailwind, Shadcn, Auth, Supabase",
+    techStacks: [
+        {
+            title: "React",
+            icon: ReactIcon,
+          },
+          {
+            title: "Calendly",
+            icon: CalendlyIcon,
+          },
+          {
+            title: "Prisma",
+            icon: Prisma,
+          },
     ],
     link: "https://calendly-theta.vercel.app/",
     githubLink: "https://github.com/Sammy212/calendly",
-    image: aiStartupLandingPage,
+    image: Calendly,
   },
 ];
+
+
