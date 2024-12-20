@@ -2,18 +2,17 @@ import { myProjects } from "@/data/data";
 import Image from "next/image";
 import { FaGithub, FaLink } from "react-icons/fa";
 import grainImage from "@/assets/images/grain.jpg";
+import { SectionHeader } from "@/components/SectionHeader";
 
 export function Projects() {
   return (
     <section className="pb-16 lg:py-24">
       <div className="container">
-        <div className="flex justify-center">
-          <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-[#DA498D] to-[#ed9d3c]/80 text-center text-transparent bg-clip-text">
-            my work
-          </p>
-        </div>
-        <h2 className="font-serif text-3xl text-center mt-4 md:text-5xl">Featured Results</h2>
-        <p className="text-center text-white/60 mt-4 md:text-lg lg:text-xl max-w-md mx-auto">Review a few of my projects. Pushing the bounds of design conventions.</p>
+        <SectionHeader
+          eyebrow="my work"
+          title="Featured Results"
+          description="Review a few of my projects. Pushing the bounds of design conventions."
+        />
 
         {/* Projects */}
         <div className="flex flex-col mt-10 gap-20 md:mt-20">
