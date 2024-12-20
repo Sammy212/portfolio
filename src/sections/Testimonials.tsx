@@ -1,7 +1,7 @@
 import { SectionHeader } from "@/components/SectionHeader";
 import { testimonials } from "@/data/data";
 import Image from "next/image";
-import grainBG from "@/assets/images/grain.jpg";
+import { Card } from "@/components/Card";
 
 export function Testimonials() {
   return (
@@ -13,28 +13,30 @@ export function Testimonials() {
           description="Don't just take my word for it. See what my clients have to say about my work"
         />
 
-        <div>
-          {
-            testimonials.map(testimonial => (
-              <div 
-                key={testimonial.name}
-                className="bg-gray-800 rounded-3xl p-6 relative overflow-hidden z-0" 
-              >
-                <div 
-                  className="absolute inset-0 opacity-5 -z-10" 
-                  style={{
-                    backgroundImage: `url(${grainBG.src})`,
-                  }}
-                ></div>
-                <Image
-                  src={testimonial.avatar} alt=""
-                />
-                <div className="name">{testimonial.name}</div>
-                <div className="pos">{testimonial.position}</div>
-                <p className="tet">{testimonial.text}</p>
-              </div>
-            ))
-          }
+        <div className="mt-16 flex">
+          <div className="flex gap-8 flex-none">
+            {
+              testimonials.map(testimonial => (
+                <Card 
+                  key={testimonial.name}
+                  className="max-w-xs"
+                >
+                  <div className="flex gap-4 items-center">
+                    <Image
+                      src={testimonial.avatar} alt=""
+                      className="size-20 rounded-full object-cover"
+                    />
+                    <div>
+                      <p className="font-semibold">{testimonial.name}</p>
+                      <p className="text-sm text-white/40">{testimonial.position}</p>
+                      <p className="bg-gradient-to-r from-[#DA498D] to-[#ed9d3c]/80 inline-flex gap-2 font-bold tracking-widest text-xs text-transparent bg-clip-text">{testimonial.company}</p>
+                    </div>
+                  </div>
+                  <p className="mt-4 text-sm text-white/80">{testimonial.text}</p>
+                </Card>
+              ))
+            }
+          </div>
         </div>
       </div>
     </div>

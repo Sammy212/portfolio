@@ -3,6 +3,7 @@ import Image from "next/image";
 import { FaGithub, FaLink } from "react-icons/fa";
 import grainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
+import { Card } from "@/components/Card";
 
 export function Projects() {
   return (
@@ -18,19 +19,10 @@ export function Projects() {
         <div className="flex flex-col mt-10 gap-20 md:mt-20">
           {
             myProjects.map(project => (
-              <div 
+              <Card 
                 key={project.id}
-                className="bg-gray-800 rounded-3xl relative z-0 overflow-hidden 
-                  after:z-10 after:content-[''] after:absolute after:inset-0 after:outline-2 after:outline after:-outline-offset-2 after:rounded-3xl
-                  after:outline-white/20
-                  after:pointer-events-none
-                  px-8 pt-8 md:pt-12 md:px-10
-                  lg:pt-16 lg:px-20
-                "
+                className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20"
               >
-                <div className="absolute inset-0 -z-10 opacity-5" style={{
-                  backgroundImage: `url(${grainImage.src})`
-                }}></div>
                 <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                   <div className="lg:pb-16">
                     <div className="bg-gradient-to-r from-[#DA498D] to-[#ed9d3c]/80 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text">
@@ -86,7 +78,7 @@ export function Projects() {
                     />
                   </div>
                 </div>
-              </div>
+              </Card>
             ))
           }
         </div>
