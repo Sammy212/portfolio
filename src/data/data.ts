@@ -17,6 +17,112 @@ import Nodejs from "@/assets/icons/node-js-icon.png";
 import Stripe from "@/assets/icons/stripe.webp";
 
 
+import { 
+  FaReact,
+  FaHtml5,
+  FaSquareGithub,
+  FaCss3,
+} from "react-icons/fa6";
+import { SiJavascript } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
+
+import { VscVscode } from "react-icons/vsc";
+import { LuNotebookPen } from "react-icons/lu";
+import { FaFigma, FaGithub } from "react-icons/fa6";
+import { SiAdobe } from "react-icons/si";
+
+
+
+// Tool Stack data
+export const techStack = [
+  {
+    name: "React",
+    icon: FaReact,
+  },
+  {
+    name: "JavaScript",
+    icon: SiJavascript,
+  },
+  {
+    name: "Github",
+    icon: FaSquareGithub,
+  },
+  {
+    name: "HTML5",
+    icon: FaHtml5,
+  },
+  {
+    name: "CSS3",
+    icon: FaCss3,
+  },
+  {
+    name: "Nextjs",
+    icon: RiNextjsFill,
+  },
+  // {
+  //   name: "Vite",
+  //   icon: "",
+  // },
+  // {
+  //   name: "VUE",
+  //   icon: "",
+  // },
+  // {
+  //   name: "Redux",
+  //   icon: "",
+  // },
+  // {
+  //   name: "Nodejs",
+  //   icon: "",
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: "",
+  // },
+  // {
+  //   name: "Firebase",
+  //   icon: "",
+  // },
+  // {
+  //   name: "Prisma",
+  //   icon: "",
+  // },
+  // {
+  //   name: "Jest",
+  //   icon: "",
+  // },
+  // {
+  //   name: "Redis",
+  //   icon: "",
+  // },
+]
+
+
+// Tools
+export const tools = [
+  {
+    tool: "Vs Code",
+    image: VscVscode,
+  },
+  {
+    tool: "Note and Pen",
+    image: LuNotebookPen,
+  },
+  {
+    tool: "Figma",
+    image: FaFigma,
+  },
+  {
+    tool: "GitHub",
+    image: FaGithub,
+  },
+  {
+    tool: "Adobe Creative Cloud",
+    image: SiAdobe,
+  },
+]
+
+
 // Projects Data
 export const myProjects = [
   {
@@ -175,55 +281,3 @@ export const testimonials = [
   },
 ];
 
-
-// Tool Stack data
-export const techStack = [
-  {
-    name: "Nextjs",
-    icon: "",
-  },
-  {
-    name: "React",
-    icon: "",
-  },
-  {
-    name: "Vite",
-    icon: "",
-  },
-  {
-    name: "VUE",
-    icon: "",
-  },
-  {
-    name: "Redux",
-    icon: "",
-  },
-  {
-    name: "Tailwind",
-    icon: "",
-  },
-  {
-    name: "Nodejs",
-    icon: "",
-  },
-  {
-    name: "MongoDB",
-    icon: "",
-  },
-  {
-    name: "Firebase",
-    icon: "",
-  },
-  {
-    name: "Prisma",
-    icon: "",
-  },
-  {
-    name: "Jest",
-    icon: "",
-  },
-  {
-    name: "Redis",
-    icon: "",
-  },
-]

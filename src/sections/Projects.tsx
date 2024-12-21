@@ -37,7 +37,7 @@ export function Projects() {
                     <ul className="flex gap-4 mt-4 flex-wrap md:gap-5">
                       {
                         project.techStacks.map(stack => (
-                          <div className="flex gap-2 text-white/50 items-center">
+                          <div className="flex gap-2 text-white/50 items-center" key={stack.title}>
                             <Image 
                               src={stack.icon} alt="Technology Stack Icon"
                               className="size-5 object-contain md:size-6"
