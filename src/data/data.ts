@@ -174,3 +174,56 @@ export const testimonials = [
     avatar: testimonialAvatar5,
   },
 ];
+
+
+// Tool Stack data
+export const techStack = [
+  {
+    name: "Nextjs",
+    icon: "",
+  },
+  {
+    name: "React",
+    icon: "",
+  },
+  {
+    name: "Vite",
+    icon: "",
+  },
+  {
+    name: "VUE",
+    icon: "",
+  },
+  {
+    name: "Redux",
+    icon: "",
+  },
+  {
+    name: "Tailwind",
+    icon: "",
+  },
+  {
+    name: "Nodejs",
+    icon: "",
+  },
+  {
+    name: "MongoDB",
+    icon: "",
+  },
+  {
+    name: "Firebase",
+    icon: "",
+  },
+  {
+    name: "Prisma",
+    icon: "",
+  },
+  {
+    name: "Jest",
+    icon: "",
+  },
+  {
+    name: "Redis",
+    icon: "",
+  },
+]
