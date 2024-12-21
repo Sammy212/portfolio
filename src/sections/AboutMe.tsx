@@ -8,6 +8,7 @@ import Image from "next/image";
 import { techStack, tools } from "@/data/data";
 import mapImage from "@/assets/images/map.png";
 import mapPin from "@/assets/images/map-pin.png";
+import { CardHeader } from "@/components/CardHeader";
 
 
 export  function AboutMe() {
@@ -21,36 +22,34 @@ export  function AboutMe() {
 
             <div className="mt-20">
                 <Card className="h-[320px]">
-                    <div className="flex flex-col">
-                        <div className="inline-flex items-center gap-2">
-                            <StarIcon className="size-9 text-[#ed9d3c]"/>
-                            <h3 className="font-serif text-3xl">Current Reads</h3>
-                        </div>
-                        <p className="text-sm text-white/60 mt-2">Explore books shaping my perspectives that define my passion and journey.</p>
-                    </div>
+                    <CardHeader
+                        title="Current Reads"
+                        description="Explore books shaping my perspectives that define my passion and journey."
+                    />
                     <div className="w-40 mx-auto mt-8">
                         <Image 
                             src={TheFifthDis} alt="Book Image"
-                            />
+                        />
                     </div>
                 </Card>
                 
                 <Card>
-                    <div>
-                        <StarIcon/>
-                        <h3>Tech Stack</h3>
-                        <p>My technology stack knowledge</p>
-                    </div>
+                    <CardHeader
+                        title="Tech Stack"
+                        description="My technology stack knowledge"
+                    />
 
                     {/* Tool Stack */}
                     <div>
                         {
                             techStack.map(item => (
-                                <div className="fle" key={item.name}>
-                                    <p>{item.name}</p>
+                                <div  key={item.name}
+                                    className="inline-flex items-center gap-4 py-2 px-3 outline outline-2"
+                                >
                                     <item.icon 
                                         className="size-10" 
                                     />
+                                    <p className="font-semibold">{item.name}</p>
                                 </div>
                             ))
                         }
@@ -58,11 +57,10 @@ export  function AboutMe() {
                 </Card>
 
                 <Card>
-                    <div>
-                        <StarIcon/>
-                        <h3>Tool Quiver</h3>
-                        <p>Here are some of the tools I love to use.</p>
-                    </div>
+                    <CardHeader
+                        title="Tool Quiver"
+                        description="Here are some of the tools I love to use."
+                    />
                     <div className="tool">
                         {
                             tools.map(tool => (
