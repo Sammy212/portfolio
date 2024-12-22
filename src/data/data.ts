@@ -32,6 +32,28 @@ import { FaFigma, FaGithub } from "react-icons/fa6";
 import { SiAdobe } from "react-icons/si";
 
 
+export const footerLinks = [
+  {
+    LinkItem: "Github",
+    href: "https://github.com/Sammy212"
+  },
+  {
+    LinkItem: "LinkeIn",
+    href: "https://www.linkedin.com/in/samuel-afo/"
+  },
+  {
+    LinkItem: "X",
+    href: "https://x.com/datadocs_ng"
+  },
+  {
+    LinkItem: "Instgram",
+    href: "https://www.instagram.com/sammyafo/"
+  },
+  {
+    LinkItem: "Facebook",
+    href: "https://www.facebook.com/sammy.afo"
+  },
+]
 
 // Tool Stack data
 export const techStack = [
