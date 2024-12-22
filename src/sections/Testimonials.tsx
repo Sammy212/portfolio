@@ -19,7 +19,7 @@ export function Testimonials() {
               testimonials.map(testimonial => (
                 <Card 
                   key={testimonial.name}
-                  className="max-w-xs md:p-8 md:max-w-md"
+                  className="max-w-xs md:p-8 p-6 md:max-w-md"
                 >
                   <div className="flex gap-4 items-center">
                     <Image

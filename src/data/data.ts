@@ -103,22 +103,32 @@ export const tools = [
   {
     tool: "Vs Code",
     image: VscVscode,
+    left: "45%",
+    top: "30%",
   },
   {
     tool: "Note and Pen",
     image: LuNotebookPen,
+    left: "5%",
+    top: "5%",
   },
   {
     tool: "Figma",
     image: FaFigma,
+    left: "5%",
+    top: "30%",
   },
   {
     tool: "GitHub",
     image: FaGithub,
+    left: "61%",
+    top: "5%",
   },
   {
-    tool: "Adobe Creative Cloud",
+    tool: "Adobe Suite",
     image: SiAdobe,
+    left: "46%",
+    top: "52%",
   },
 ]
 
