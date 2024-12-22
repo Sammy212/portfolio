@@ -36,63 +36,63 @@ import { SiAdobe } from "react-icons/si";
 // Tool Stack data
 export const techStack = [
   {
-    name: "React",
+    tool: "React",
     icon: FaReact,
   },
   {
-    name: "JavaScript",
+    tool: "JavaScript",
     icon: SiJavascript,
   },
   {
-    name: "Github",
+    tool: "Github",
     icon: FaSquareGithub,
   },
   {
-    name: "HTML5",
+    tool: "HTML5",
     icon: FaHtml5,
   },
   {
-    name: "CSS3",
+    tool: "CSS3",
     icon: FaCss3,
   },
   {
-    name: "Nextjs",
+    tool: "Nextjs",
     icon: RiNextjsFill,
   },
   // {
-  //   name: "Vite",
+  //   tool: "Vite",
   //   icon: "",
   // },
   // {
-  //   name: "VUE",
+  //   tool: "VUE",
   //   icon: "",
   // },
   // {
-  //   name: "Redux",
+  //   tool: "Redux",
   //   icon: "",
   // },
   // {
-  //   name: "Nodejs",
+  //   tool: "Nodejs",
   //   icon: "",
   // },
   // {
-  //   name: "MongoDB",
+  //   tool: "MongoDB",
   //   icon: "",
   // },
   // {
-  //   name: "Firebase",
+  //   tool: "Firebase",
   //   icon: "",
   // },
   // {
-  //   name: "Prisma",
+  //   tool: "Prisma",
   //   icon: "",
   // },
   // {
-  //   name: "Jest",
+  //   tool: "Jest",
   //   icon: "",
   // },
   // {
-  //   name: "Redis",
+  //   tool: "Redis",
   //   icon: "",
   // },
 ]

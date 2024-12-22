@@ -9,6 +9,7 @@ import { techStack, tools } from "@/data/data";
 import mapImage from "@/assets/images/map.png";
 import mapPin from "@/assets/images/map-pin.png";
 import { CardHeader } from "@/components/CardHeader";
+import { TechStackItems } from "@/components/TechStackItems";
 
 
 export  function AboutMe() {
@@ -25,6 +26,7 @@ export  function AboutMe() {
                     <CardHeader
                         title="Current Reads"
                         description="Explore books shaping my perspectives that define my passion and journey."
+                        
                     />
                     <div className="w-40 mx-auto mt-8">
                         <Image 
@@ -33,27 +35,22 @@ export  function AboutMe() {
                     </div>
                 </Card>
                 
-                <Card>
+                <Card className="h-[320px] p-0">
                     <CardHeader
                         title="Tech Stack"
                         description="My technology stack knowledge"
+                        className="px-6 pt-6"
                     />
 
                     {/* Tool Stack */}
-                    <div>
-                        {
-                            techStack.map(item => (
-                                <div  key={item.name}
-                                    className="inline-flex items-center gap-4 py-2 px-3 outline outline-2"
-                                >
-                                    <item.icon 
-                                        className="size-10" 
-                                    />
-                                    <p className="font-semibold">{item.name}</p>
-                                </div>
-                            ))
-                        }
-                    </div>
+                    <TechStackItems
+                        techStackitems={techStack}
+                        className="mt-6"
+                    />
+                    <TechStackItems
+                        techStackitems={techStack}
+                        className="mt-6"
+                    />
                 </Card>
 
                 <Card>
