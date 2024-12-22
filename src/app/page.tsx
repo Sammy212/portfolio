@@ -1,4 +1,5 @@
 import { AboutMe } from "@/sections/AboutMe";
+import { Contact } from "@/sections/Contact";
 import { Header } from "@/sections/Header";
 import { Hero } from "@/sections/Hero";
 import { Projects } from "@/sections/Projects";
@@ -14,7 +15,7 @@ export default function Home() {
       <Tape/>
       <Testimonials/>
       <AboutMe/>
-      <h1>Home page</h1>
+      <Contact/>
     </div>
   );
 }
