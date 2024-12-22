@@ -21,7 +21,7 @@ export  function AboutMe() {
                 description="I enjoy finding creative solutions through technology and design"
             />
 
-            <div className="mt-20">
+            <div className="mt-20 flex flex-col gap-8">
                 <Card className="h-[320px]">
                     <CardHeader
                         title="Current Reads"
@@ -50,6 +50,7 @@ export  function AboutMe() {
                     <TechStackItems
                         techStackitems={techStack}
                         className="mt-6"
+                        wrapperClassName="-translate-x-1/2"
                     />
                 </Card>
 
