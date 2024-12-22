@@ -1,5 +1,6 @@
 import { AboutMe } from "@/sections/AboutMe";
 import { Contact } from "@/sections/Contact";
+import { Footer } from "@/sections/Footer";
 import { Header } from "@/sections/Header";
 import { Hero } from "@/sections/Hero";
 import { Projects } from "@/sections/Projects";
@@ -16,6 +17,7 @@ export default function Home() {
       <Testimonials/>
       <AboutMe/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
