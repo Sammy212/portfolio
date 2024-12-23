@@ -28,30 +28,42 @@ import { RiNextjsFill } from "react-icons/ri";
 
 import { VscVscode } from "react-icons/vsc";
 import { LuNotebookPen } from "react-icons/lu";
-import { FaFigma, FaGithub } from "react-icons/fa6";
+import { 
+  FaFigma, 
+  FaGithub, 
+  FaLinkedin, 
+  FaSquareXTwitter, 
+  FaInstagram, 
+  FaFacebook
+} from "react-icons/fa6";
 import { SiAdobe } from "react-icons/si";
 
 
 export const footerLinks = [
   {
     LinkItem: "Github",
-    href: "https://github.com/Sammy212"
+    href: "https://github.com/Sammy212",
+    icon: FaGithub,
   },
   {
     LinkItem: "LinkeIn",
-    href: "https://www.linkedin.com/in/samuel-afo/"
+    href: "https://www.linkedin.com/in/samuel-afo/",
+    icon: FaLinkedin,
   },
   {
     LinkItem: "X",
-    href: "https://x.com/datadocs_ng"
+    href: "https://x.com/datadocs_ng",
+    icon: FaSquareXTwitter,
   },
   {
     LinkItem: "Instgram",
-    href: "https://www.instagram.com/sammyafo/"
+    href: "https://www.instagram.com/sammyafo/",
+    icon: FaInstagram,
   },
   {
     LinkItem: "Facebook",
-    href: "https://www.facebook.com/sammy.afo"
+    href: "https://www.facebook.com/sammy.afo",
+    icon: FaFacebook,
   },
 ]
 
