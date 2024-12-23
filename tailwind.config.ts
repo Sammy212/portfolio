@@ -36,7 +36,18 @@ const config: Config = {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		},
-  		colors: {}
+  		colors: {},
+		keyframes: {
+			'ping-large': {
+				'75%, 100%': {
+					transform: 'scale(3)',
+					opacity: '0',
+				}
+			}
+		},
+		animation: {
+			'ping-large': 'ping-large 1s ease-in-out infinite'
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],

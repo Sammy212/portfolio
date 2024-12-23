@@ -26,10 +26,25 @@ export function Hero() {
                 <div className="size-[1020px] hero-ring"></div>
                 <div className="size-[1220px] hero-ring"></div>
 
-                {/* Stars Orbit*/}
-                <HeroOrbit size={800} rotation={-72}>
-                    <StarIcon
-                        className=" size-28 text-[#ed9d3c]"
+                
+                <HeroOrbit size={430} rotation={-14}>
+                    <SparkleIcon
+                        className=" size-8 text-[#ed9d3c]/25"
+                    />
+                </HeroOrbit>
+                <HeroOrbit size={440} rotation={79}>
+                    <SparkleIcon
+                        className=" size-5 text-[#ed9d3c]/25"
+                    />
+                </HeroOrbit>
+                <HeroOrbit size={520} rotation={-41}>
+                    <div
+                        className=" size-2 rounded-full bg-[#ed9d3c]/20"
+                    />
+                </HeroOrbit>
+                <HeroOrbit size={530} rotation={178}>
+                    <SparkleIcon
+                        className=" size-10 text-[#ed9d3c]/25"
                     />
                 </HeroOrbit>
                 <HeroOrbit size={550} rotation={16}>
@@ -42,21 +57,9 @@ export function Hero() {
                         className=" size-8 text-[#ed9d3c]"
                     />
                 </HeroOrbit>
-
-                {/* Sparkles */}
-                <HeroOrbit size={430} rotation={-14}>
-                    <SparkleIcon
-                        className=" size-8 text-[#ed9d3c]/25"
-                    />
-                </HeroOrbit>
-                <HeroOrbit size={440} rotation={79}>
-                    <SparkleIcon
-                        className=" size-5 text-[#ed9d3c]/25"
-                    />
-                </HeroOrbit>
-                <HeroOrbit size={530} rotation={178}>
-                    <SparkleIcon
-                        className=" size-10 text-[#ed9d3c]/25"
+                <HeroOrbit size={650} rotation={-5}>
+                    <div
+                        className=" size-2 rounded-full bg-[#ed9d3c]/20"
                     />
                 </HeroOrbit>
                 <HeroOrbit size={710} rotation={144}>
@@ -64,24 +67,18 @@ export function Hero() {
                         className=" size-14 text-[#ed9d3c]/25"
                     />
                 </HeroOrbit>
-
-                {/* glints */}
                 <HeroOrbit size={720} rotation={85}>
                     <div
                         className=" size-3 rounded-full bg-[#ed9d3c]/20"
                     />
                 </HeroOrbit>
-                <HeroOrbit size={520} rotation={-41}>
-                    <div
-                        className=" size-2 rounded-full bg-[#ed9d3c]/20"
-                    />
-                </HeroOrbit>
-                <HeroOrbit size={650} rotation={-5}>
-                    <div
-                        className=" size-2 rounded-full bg-[#ed9d3c]/20"
+                <HeroOrbit size={800} rotation={-72}>
+                    <StarIcon
+                        className=" size-28 text-[#ed9d3c]"
                     />
                 </HeroOrbit>
             </div>
+
 
             <div className="container">
                 <div className="flex flex-col items-center">
@@ -90,7 +87,11 @@ export function Hero() {
                         className="size-[140px]"
                     />
                     <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
-                        <div className="bg-[#ed9d3c] size-2.5 rounded-full"></div>
+                        <div 
+                            className="bg-[#ed9d3c] size-2.5 rounded-full relative"
+                        >
+                            <div className="bg-[#ed9d3c] size-2.5 rounded-full absolute inset-0 animate-ping-large"></div>
+                        </div>
                         <div className="text-sm font-medium">Available for Projects</div>
                     </div>
                     <div className="max-w-lg mx-auto">
