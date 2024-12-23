@@ -27,52 +27,86 @@ export function Hero() {
                 <div className="size-[1220px] hero-ring"></div>
 
                 
-                <HeroOrbit size={430} rotation={-14}>
+                <HeroOrbit size={430} rotation={-14} 
+                    shouldOrbit 
+                    orbitDuration="60s" 
+                    shouldSpin spinDuration="4s"
+                >
                     <SparkleIcon
                         className=" size-8 text-[#ed9d3c]/25"
                     />
                 </HeroOrbit>
-                <HeroOrbit size={440} rotation={79}>
+                <HeroOrbit size={440} rotation={79} 
+                    shouldOrbit 
+                    orbitDuration="62s" 
+                    shouldSpin 
+                    spinDuration="6s"
+                >
                     <SparkleIcon
                         className=" size-5 text-[#ed9d3c]/25"
                     />
                 </HeroOrbit>
-                <HeroOrbit size={520} rotation={-41}>
+                <HeroOrbit size={520} rotation={128}>
                     <div
                         className=" size-2 rounded-full bg-[#ed9d3c]/20"
                     />
                 </HeroOrbit>
-                <HeroOrbit size={530} rotation={178}>
+                <HeroOrbit size={530} rotation={178} 
+                    shouldOrbit 
+                    orbitDuration="67s" 
+                    shouldSpin 
+                    spinDuration="10s"
+                >
                     <SparkleIcon
                         className=" size-10 text-[#ed9d3c]/25"
                     />
                 </HeroOrbit>
-                <HeroOrbit size={550} rotation={16}>
+                <HeroOrbit size={550} rotation={16} 
+                    shouldOrbit 
+                    orbitDuration="70s" 
+                    shouldSpin 
+                    spinDuration="10s"
+                >
                     <StarIcon
                         className=" size-12 text-[#ed9d3c]"
                     />
                 </HeroOrbit>
-                <HeroOrbit size={590} rotation={98}>
+                <HeroOrbit size={590} rotation={98} 
+                    shouldOrbit 
+                    orbitDuration="72s" 
+                    shouldSpin 
+                    spinDuration="10s"
+                >
                     <StarIcon
                         className=" size-8 text-[#ed9d3c]"
                     />
                 </HeroOrbit>
-                <HeroOrbit size={650} rotation={-5}>
-                    <div
-                        className=" size-2 rounded-full bg-[#ed9d3c]/20"
-                    />
-                </HeroOrbit>
-                <HeroOrbit size={710} rotation={144}>
-                    <SparkleIcon
-                        className=" size-14 text-[#ed9d3c]/25"
-                    />
-                </HeroOrbit>
-                <HeroOrbit size={720} rotation={85}>
+                <HeroOrbit size={650} rotation={105}>
                     <div
                         className=" size-3 rounded-full bg-[#ed9d3c]/20"
                     />
                 </HeroOrbit>
-                <HeroOrbit size={800} rotation={-72}>
+                <HeroOrbit size={710} rotation={144} 
+                    shouldOrbit 
+                    orbitDuration="120s" 
+                    shouldSpin 
+                    spinDuration="10s"
+                >
+                    <SparkleIcon
+                        className=" size-16 text-[#ed9d3c]/25"
+                    />
+                </HeroOrbit>
+                <HeroOrbit size={720} rotation={-42}>
+                    <div
+                        className=" size-5 rounded-full bg-[#ed9d3c]/40"
+                    />
+                </HeroOrbit>
+                <HeroOrbit size={900} rotation={-72} 
+                    shouldOrbit 
+                    orbitDuration="202s" 
+                    shouldSpin 
+                    spinDuration="28s"
+                >
                     <StarIcon
                         className=" size-28 text-[#ed9d3c]"
                     />
