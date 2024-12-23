@@ -15,10 +15,10 @@ export function Contact() {
                 <div className="flex flex-col md:flex-row md:text-left gap-8 md:gap-16 items-center">
                     <div>
                         <h2 className="font-serif text-2xl md:text-3xl">
-                            Let’s turn your vision into something extraordinary
+                            Let&apos;s turn your vision into something extraordinary
                         </h2>
                         <p className="text-sm mt-2 md:text-base">
-                            Have a vision in mind? Let's collaborate and turn it into something extraordinary. Reach out, and let's make it happen!
+                            Have a vision in mind? Let&apos;s collaborate and turn it into something extraordinary. Reach out, and let&apos;s make it happen!
                         </p>
                     </div>
 
