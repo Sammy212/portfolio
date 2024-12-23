@@ -169,9 +169,8 @@ export const tools = [
 
 // Projects Data
 export const myProjects = [
-  {
+  {title: "A Calendly Replica",
     id: 3,
-    title: "A Calendly Replica",
     company: "Calendly",
     year: "2024",
     description: "A replica of Calendly built with Next 14, Nylas, Prisma, Postgres, Tailwind, Shadcn, Auth, Supabase",
@@ -201,41 +200,8 @@ export const myProjects = [
     githubLink: "https://github.com/Sammy212/calendly",
     image: Calendly,
   },
-  {
-    id: 1,
-    title: "TheUnforsaken House Website Redesign",
-    company: "TheUnforsaken House",
-    year: "2024",
-    description: "Redesigned a clinical psychology website in React, enhancing user experience, brand identity, and client engagement. As Product Manager and Lead Developer, I led a team to craft a welcoming, accessible interface with improved navigation and a new logo.",
-    techStacks: [
-      {
-        title: "React",
-        icon: ReactIcon,
-      },
-      {
-        title: "Calendly API",
-        icon: CalendlyIcon,
-      },
-      {
-        title: "Prisma",
-        icon: Prisma,
-      },
-      {
-        title: "Nodejs",
-        icon: Nodejs,
-      },
-      {
-        title: "Stripe API",
-        icon: Stripe,
-      },
-    ],
-    link: "https://theunforsaken.org",
-    githubLink: "https://github.com/Sammy212/shoplux-next",
-    image: TheUnforsaken,
-  },
-  {
+  {title: "shopLux Fullstack Development Project",
     id: 2,
-    title: "shopLux Fullstack Development Project",
     company: "shopLux",
     year: "2024",
     description: "Build a fullstack ecommerce web application using Next, Tailwind, Prisma, Redis, Neon, Stripe to accept payment and zod for form validation ",
@@ -263,6 +229,68 @@ export const myProjects = [
     ],
     link: "https://shoplux-next.vercel.app/",
     githubLink: "https://github.com/Sammy212/shoplux-next",
+    image: ShopLux,
+  },
+  {title: "TheUnforsaken House Website Redesign",
+    id: 1,
+    company: "TheUnforsaken House",
+    year: "2024",
+    description: "Redesigned a clinical psychology website in React, enhancing user experience, brand identity, and client engagement. As Product Manager and Lead Developer, I led a team to craft a welcoming, accessible interface with improved navigation and a new logo.",
+    techStacks: [
+      {
+        title: "React",
+        icon: ReactIcon,
+      },
+      {
+        title: "Calendly API",
+        icon: CalendlyIcon,
+      },
+      {
+        title: "Prisma",
+        icon: Prisma,
+      },
+      {
+        title: "Nodejs",
+        icon: Nodejs,
+      },
+      {
+        title: "Stripe API",
+        icon: Stripe,
+      },
+    ],
+    link: "https://theunforsaken.org",
+    githubLink: "https://github.com/Sammy212/private-repo",
+    image: TheUnforsaken,
+  },
+  {title: "SlashPoint Web and Mobile App Development",
+    id: 4,
+    company: "SlashPoint",
+    year: "2023",
+    description: "Build a fullstack ecommerce web and mobile application using React, Flutter, Laravel, Firebase for realtime data mutations, Paystack to accept payment",
+    techStacks: [
+      {
+        title: "React",
+        icon: ReactIcon,
+      },
+      {
+        title: "Calendly API",
+        icon: CalendlyIcon,
+      },
+      {
+        title: "Prisma",
+        icon: Prisma,
+      },
+      {
+        title: "Nodejs",
+        icon: Nodejs,
+      },
+      {
+        title: "Stripe API",
+        icon: Stripe,
+      },
+    ],
+    link: "https://slashp.datadocs.com.ng/",
+    githubLink: "https://github.com/Sammy212/private-repo",
     image: ShopLux,
   },
 ];
