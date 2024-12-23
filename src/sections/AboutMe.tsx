@@ -1,4 +1,4 @@
-// "use client";
+"use client";
 
 import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
@@ -10,9 +10,14 @@ import mapImage from "@/assets/images/map.png";
 import mapPin from "@/assets/images/map-pin.png";
 import { CardHeader } from "@/components/CardHeader";
 import { TechStackItems } from "@/components/TechStackItems";
+import { motion } from "framer-motion";
+import { useRef } from "react";
 
 
 export  function AboutMe() {
+    
+    const constraintRef = useRef(null);
+
     return (
         <div className="py-20 container lg:py-28">
             <SectionHeader
@@ -69,21 +74,27 @@ export  function AboutMe() {
                             description="Here are some of the tools I love to use."
                             className="px-6 py-6"
                         />
-                        <div className="relative flex-1">
+                        <div 
+                            className="relative flex-1"
+                            ref={constraintRef}
+                        >
                             {
                                 tools.map(tool => (
-                                    <div key={tool.tool}
+                                    <motion.div 
+                                        key={tool.tool}
                                         className="inline-flex items-center gap-2 px-6 bg-gradient-to-r from-[#DA498D] to-[#ed9d3c]/80 rounded-full py-1.5 absolute"
                                         style={{
                                             top: tool.top,
                                             left: tool.left,
                                         }}
+                                        drag
+                                        dragConstraints={constraintRef}
                                     >
                                         <p className="font-medium text-gray-950">{tool.tool}</p>
                                         <tool.image 
                                             className="size-6"
                                         />
-                                    </div>
+                                    </motion.div>
                                 ))
                             }
                         </div>
