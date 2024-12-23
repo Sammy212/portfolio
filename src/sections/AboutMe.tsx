@@ -49,11 +49,12 @@ export  function AboutMe() {
                         <TechStackItems
                             techStackitems={techStack}
                             className=""
+                            wrapperClassName="animate-move-left [animation-duration:20s]"
                         />
                         <TechStackItems
                             techStackitems={techStack}
                             className="mt-6"
-                            wrapperClassName="-translate-x-1/2"
+                            wrapperClassName="animate-move-right [animation-duration:36s]"
                         />
                     </Card>
                 </div>
@@ -96,9 +97,13 @@ export  function AboutMe() {
                                 className="h-[320px] w-full object-cover"
                             />
 
-                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-r from-[#DA498D] to-[#ed9d3c]/80
+                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
+                                rounded-full bg-gradient-to-r from-[#DA498D] to-[#ed9d3c]/80
                                 after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/5
                             ">
+                                <div 
+                                    className="absolute inset-0 rounded-full bg-gradient-to-r from-[#DA498D] to-[#ed9d3c]/80 -z-20 animate-ping [animation-duration:2s]"
+                                ></div>
                                 <Image src={mapPin} alt="Map Pin"
                                     className="rounded-full size-24"
                                 />
