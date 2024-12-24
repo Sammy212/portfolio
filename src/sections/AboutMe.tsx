@@ -2,7 +2,6 @@
 
 import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
-import StarIcon from "@/assets/icons/star.svg";
 import TheFifthDis from "@/assets/images/the-5th-discipline.png";
 import Image from "next/image";
 import { techStack, tools } from "@/data/data";
@@ -19,7 +18,7 @@ export  function AboutMe() {
     const constraintRef = useRef(null);
 
     return (
-        <div className="py-20 container lg:py-28">
+        <div className="py-20 container lg:py-28" id="about">
             <SectionHeader
                 title="About Me"
                 eyebrow="Samuel in 60 Seconds"

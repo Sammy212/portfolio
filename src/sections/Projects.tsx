@@ -1,14 +1,13 @@
 import { myProjects } from "@/data/data";
 import Image from "next/image";
 import { FaGithub, FaLink } from "react-icons/fa";
-import grainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
 export function Projects() {
   return (
     <section className="pb-16 lg:py-24">
-      <div className="container">
+      <div className="container" id="projects">
         <SectionHeader
           eyebrow="my work"
           title="Featured Results"

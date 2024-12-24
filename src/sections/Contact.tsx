@@ -3,7 +3,7 @@ import grainBG from "@/assets/images/grain.jpg";
 
 export function Contact() {
     return (
-        <div className="py-16 pt-14 lg:py-24 lg:pt-20">
+        <div className="py-16 pt-14 lg:py-24 lg:pt-20" id="contact">
             <div className="container">
                 <div className="bg-gradient-to-r from-[#DA498D] to-[#ed9d3c]/80 text-gray-900 py-8 px-10 rounded-3xl text-center relative overflow-hidden z-0">
                 <div 
