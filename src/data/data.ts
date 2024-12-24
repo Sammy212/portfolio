@@ -9,21 +9,44 @@ import SlashPoint from "@/assets/images/slashpoint.png";
 import TheUnforsaken from "@/assets/images/theunforsaken.png";
 import Calendly from "@/assets/images/calendly.png";
 
+import CalendlyIcon from "@/assets/icons/Calendly-icon.png";
+import Postgress from "@/assets/icons/postgress.png";
+import Prisma from "@/assets/icons/prisma.png";
+import FireBase from "@/assets/icons/firebase.png";
+import AWS from "@/assets/icons/aws1.png";
+import Neon from "@/assets/icons/neon.png";
+import Laravel from "@/assets/icons/laravel.png";
+import Nodejs from "@/assets/icons/node-js.png";
+import Flutter from "@/assets/icons/flutter-logo.png";
+import Next from "@/assets/icons/next-js.png";
+import NextAuth from "@/assets/icons/nextauth.png";
+import Tailwind from "@/assets/icons/tailwind.png";
+import Nylas from "@/assets/icons/nylas.png";
+import TypeScript from "@/assets/icons/typescript.png";
+import JavaScript from "@/assets/icons/javascript.png";
+import SupaBase from "@/assets/icons/supabase.png";
+import Zod from "@/assets/icons/zod.png";
+import KindeAuth from "@/assets/icons/kinde-logo.png";
+import ShadCN from "@/assets/icons/Shadcn.png";
+import Stripe from "@/assets/icons/stripe.png";
+import Paystack from "@/assets/icons/paystack.png";
+import Upstash from "@/assets/icons/upstash.png";
+import UploadThing from "@/assets/icons/uploadthing-icon.png";
+import ReactIcon from "@/assets/icons/react.png";
 
 
-
+import { RiNextjsFill } from "react-icons/ri";
+import { VscVscode } from "react-icons/vsc";
+import { LuNotebookPen } from "react-icons/lu";
+import { TbBrandRedux } from "react-icons/tb";
+import { FaNodeJs } from "react-icons/fa";
+import { IoLogoFirebase } from "react-icons/io5";
+import { DiRedis } from "react-icons/di";
 import { 
   FaReact,
   FaHtml5,
   FaSquareGithub,
   FaCss3,
-} from "react-icons/fa6";
-import { SiJavascript } from "react-icons/si";
-import { RiNextjsFill } from "react-icons/ri";
-
-import { VscVscode } from "react-icons/vsc";
-import { LuNotebookPen } from "react-icons/lu";
-import { 
   FaFigma, 
   FaGithub, 
   FaLinkedin, 
@@ -31,7 +54,14 @@ import {
   FaInstagram, 
   FaFacebook
 } from "react-icons/fa6";
-import { SiAdobe } from "react-icons/si";
+import { 
+  SiJavascript,
+  SiAdobe,
+  SiVite,
+  SiMongodb,
+  SiPrisma,
+  SiJest,
+} from "react-icons/si";
 
 
 export const footerLinks = [
@@ -88,42 +118,38 @@ export const techStack = [
     tool: "Nextjs",
     icon: RiNextjsFill,
   },
-  // {
-  //   tool: "Vite",
-  //   icon: "",
-  // },
-  // {
-  //   tool: "VUE",
-  //   icon: "",
-  // },
-  // {
-  //   tool: "Redux",
-  //   icon: "",
-  // },
-  // {
-  //   tool: "Nodejs",
-  //   icon: "",
-  // },
-  // {
-  //   tool: "MongoDB",
-  //   icon: "",
-  // },
-  // {
-  //   tool: "Firebase",
-  //   icon: "",
-  // },
-  // {
-  //   tool: "Prisma",
-  //   icon: "",
-  // },
-  // {
-  //   tool: "Jest",
-  //   icon: "",
-  // },
-  // {
-  //   tool: "Redis",
-  //   icon: "",
-  // },
+  {
+    tool: "Vite",
+    icon: SiVite,
+  },
+  {
+    tool: "Redux",
+    icon: TbBrandRedux,
+  },
+  {
+    tool: "Nodejs",
+    icon: FaNodeJs,
+  },
+  {
+    tool: "MongoDB",
+    icon: SiMongodb,
+  },
+  {
+    tool: "Firebase",
+    icon: IoLogoFirebase,
+  },
+  {
+    tool: "Prisma",
+    icon: SiPrisma,
+  },
+  {
+    tool: "Jest",
+    icon: SiJest,
+  },
+  {
+    tool: "Redis",
+    icon: DiRedis,
+  },
 ]
 
 
@@ -161,34 +187,6 @@ export const tools = [
   },
 ]
 
-
-
-
-
-import CalendlyIcon from "@/assets/icons/Calendly-icon.png";
-import Postgress from "@/assets/icons/postgress.png";
-import Prisma from "@/assets/icons/prisma.png";
-import FireBase from "@/assets/icons/firebase.png";
-import AWS from "@/assets/icons/aws1.png";
-import Neon from "@/assets/icons/neon.png";
-import Laravel from "@/assets/icons/laravel.png";
-import Nodejs from "@/assets/icons/node-js.png";
-import Flutter from "@/assets/icons/flutter-logo.png";
-import Next from "@/assets/icons/next-js.png";
-import NextAuth from "@/assets/icons/nextauth.png";
-import Tailwind from "@/assets/icons/tailwind.png";
-import Nylas from "@/assets/icons/nylas.png";
-import TypeScript from "@/assets/icons/typescript.png";
-import JavaScript from "@/assets/icons/javascript.png";
-import SupaBase from "@/assets/icons/supabase.png";
-import Zod from "@/assets/icons/zod.png";
-import KindeAuth from "@/assets/icons/kinde-logo.png";
-import ShadCN from "@/assets/icons/Shadcn.png";
-import Stripe from "@/assets/icons/stripe.png";
-import Paystack from "@/assets/icons/paystack.png";
-import Upstash from "@/assets/icons/upstash.png";
-import UploadThing from "@/assets/icons/uploadthing-icon.png";
-import ReactIcon from "@/assets/icons/react.png";
 
 // Projects Data
 export const myProjects = [
