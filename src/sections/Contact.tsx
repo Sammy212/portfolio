@@ -48,7 +48,7 @@ export function Contact() {
                                 </button>
                             </DrawerTrigger>
                             <DrawerContent
-                                className="bg-gray-900 text-white"
+                                className="bg-gray-900 text-white border-none"
                             >
                                 <DrawerHeader className="container">
                                     <DrawerClose />
@@ -58,37 +58,49 @@ export function Contact() {
                                     <div className="flex flex-col mt-7 gap-4 justify-between md:flex-row md:gap-8">
                                         <div>
                                             <h4
-                                                className="font-serif text-lg text-[#ed9d3c]"
+                                                className="font-serif text-lg text-[#ed9d3c]/60"
                                             >
                                                 Email
                                             </h4>
                                             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=samuelafo.212@gmail.com" target="_blank" rel="noopener noreferrer">
                                                 <div className="flex items-center gap-2">
-                                                    <MdOutlineMarkEmailUnread />
-                                                    <p>samuelafo.212@gmail.com</p>
+                                                    <MdOutlineMarkEmailUnread 
+                                                        className="text-lg text-[#ed9d3c]"
+                                                    />
+                                                    <p
+                                                        className="text-white/80"
+                                                    >samuelafo.212@gmail.com</p>
                                                 </div>
                                             </a>
                                         </div>
                                         <div>
                                             <h4
-                                                className="font-serif text-lg text-[#ed9d3c]"
+                                                className="font-serif text-lg text-[#ed9d3c]/60"
                                             >
                                                 Phone
                                             </h4>
                                             <div className="flex items-center gap-2">
-                                                <FaPhone />
-                                                <p>+234 703 620 9261</p>
+                                                <FaPhone 
+                                                    className="text-lg text-[#ed9d3c]"
+                                                />
+                                                <p
+                                                    className="text-white/80"
+                                                >+234 703 620 9261</p>
                                             </div>
                                         </div>
                                         <div>
                                             <h4
-                                                className="font-serif text-lg text-[#ed9d3c]"
+                                                className="font-serif text-lg text-[#ed9d3c]/60"
                                             >
                                                 Skype
                                             </h4>
                                             <div className="flex items-center gap-2">
-                                                <FaSkype />
-                                                <p>its_sammy212</p>
+                                                <FaSkype 
+                                                    className="text-lg text-[#ed9d3c]"
+                                                />
+                                                <p
+                                                    className="text-white/80"
+                                                >its_sammy212</p>
                                             </div>
                                         </div>
                                     </div>
