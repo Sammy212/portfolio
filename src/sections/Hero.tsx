@@ -1,3 +1,5 @@
+"use client";
+
 import HeroImage from "@/assets/images/3d-compute.png";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
@@ -10,9 +12,16 @@ import { HeroOrbit } from "@/components/HeroOrbit";
 
 
 export function Hero() {
+
+    // function that receive the specific element_id as string and scroll into that element_id
+    const scrolltoHash = function (element_id: string) {
+        const element = document.getElementById(element_id)
+        element?.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+    }
+
     return (
         <div className="py-32 md:py-48 lg:py-[180px] relative z-0 overflow-clip">
-            <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
+            <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)] pointer-events-none">
                 <div 
                     className="absolute inset-0 -z-30 opacity-5"
                     style={{
@@ -137,11 +146,21 @@ export function Hero() {
                     </div>
                     <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
                         <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
-                            <span className="font-semibold">See My Work</span>
+                            <span 
+                                className="font-semibold"
+                                onClick={() => scrolltoHash('projects')}
+                            >
+                                See My Work
+                            </span>
                             <ArrowDown className="size-4" />
                         </button>
                         <button className="inline-flex items-center gap-2 bg-white text-gray-900 px-6 h-12 rounded-xl">
-                            <span className="font-semibold">Contact Me</span>
+                            <span 
+                                className="font-semibold"
+                                onClick={() => scrolltoHash('contact')}
+                            >
+                                Contact Me
+                            </span>
                             <MdOutlineMarkEmailUnread />
                         </button>
                     </div>
