@@ -152,7 +152,7 @@ export function Hero() {
                             >
                                 See My Work
                             </span>
-                            <ArrowDown className="size-4" />
+                            <ArrowDown className="size-4 animate-bounce" />
                         </button>
                         <button className="inline-flex items-center gap-2 bg-white text-gray-900 px-6 h-12 rounded-xl">
                             <span 
