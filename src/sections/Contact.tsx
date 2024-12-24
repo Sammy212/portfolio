@@ -4,7 +4,7 @@ import {
     FaPhone
 } from "react-icons/fa6";
 import grainBG from "@/assets/images/grain.jpg";
-import { MdOutlineMarkEmailUnread } from "react-icons/md";
+import { MdMarkEmailUnread } from "react-icons/md";
 
 import {
     Drawer,
@@ -64,7 +64,7 @@ export function Contact() {
                                             </h4>
                                             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=samuelafo.212@gmail.com" target="_blank" rel="noopener noreferrer">
                                                 <div className="flex items-center gap-2">
-                                                    <MdOutlineMarkEmailUnread 
+                                                    <MdMarkEmailUnread 
                                                         className="text-lg text-[#ed9d3c]"
                                                     />
                                                     <p
@@ -81,7 +81,7 @@ export function Contact() {
                                             </h4>
                                             <div className="flex items-center gap-2">
                                                 <FaPhone 
-                                                    className="text-lg text-[#ed9d3c]"
+                                                    className="text-sm text-[#ed9d3c] animate-bounce"
                                                 />
                                                 <p
                                                     className="text-white/80"
