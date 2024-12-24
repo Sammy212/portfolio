@@ -165,19 +165,30 @@ export const tools = [
 
 
 
+import CalendlyIcon from "@/assets/icons/Calendly-icon.png";
+import Postgress from "@/assets/icons/postgress.png";
 import Prisma from "@/assets/icons/prisma.png";
+import FireBase from "@/assets/icons/firebase.png";
+import AWS from "@/assets/icons/aws1.png";
+import Neon from "@/assets/icons/neon.png";
+import Laravel from "@/assets/icons/laravel.png";
+import Nodejs from "@/assets/icons/node-js.png";
+import Flutter from "@/assets/icons/flutter-logo.png";
 import Next from "@/assets/icons/next-js.png";
 import NextAuth from "@/assets/icons/nextauth.png";
 import Tailwind from "@/assets/icons/tailwind.png";
 import Nylas from "@/assets/icons/nylas.png";
 import TypeScript from "@/assets/icons/typescript.png";
-import CalendlyIcon from "@/assets/icons/Calendly-icon.png";
+import JavaScript from "@/assets/icons/javascript.png";
 import SupaBase from "@/assets/icons/supabase.png";
-import Postgress from "@/assets/icons/postgress.png";
 import Zod from "@/assets/icons/zod.png";
-import ReactIcon from "@/assets/icons/react.png";
-import Nodejs from "@/assets/icons/node-js-icon.png";
+import KindeAuth from "@/assets/icons/kinde-logo.png";
+import ShadCN from "@/assets/icons/Shadcn.png";
 import Stripe from "@/assets/icons/stripe.png";
+import Paystack from "@/assets/icons/paystack.png";
+import Upstash from "@/assets/icons/upstash.png";
+import UploadThing from "@/assets/icons/uploadthing-icon.png";
+import ReactIcon from "@/assets/icons/react.png";
 
 // Projects Data
 export const myProjects = [
@@ -188,7 +199,7 @@ export const myProjects = [
     description: "A replica of Calendly built with Next 14, Nylas, Prisma, Postgres, Tailwind, Shadcn, Auth, Supabase",
     techStacks: [
       {
-        title: "Nextjs",
+        title: "Next 14",
         icon: Next,
       },
       {
@@ -198,10 +209,6 @@ export const myProjects = [
       {
         title: "Prisma",
         icon: Prisma,
-      },
-      {
-        title: "Postgress",
-        icon: Postgress,
       },
       {
         title: "NextAuth",
@@ -223,6 +230,10 @@ export const myProjects = [
         title: "SupaBase",
         icon: SupaBase,
       },
+      {
+        title: "Shadcn",
+        icon: ShadCN,
+      },
     ],
     link: "https://calendly-theta.vercel.app/",
     githubLink: "https://github.com/Sammy212/calendly",
@@ -235,100 +246,140 @@ export const myProjects = [
     description: "Build a fullstack ecommerce web application using Next, Tailwind, Prisma, Redis, Neon, Stripe to accept payment and zod for form validation ",
     techStacks: [
       {
-        title: "Nextjs",
+        title: "Next 14",
         icon: Next,
-      },
-      {
-        title: "Calendly API",
-        icon: CalendlyIcon,
       },
       {
         title: "Prisma",
         icon: Prisma,
       },
       {
-        title: "NextAuth",
-        icon: NextAuth,
+        title: "Neon",
+        icon: Neon,
+      },
+      {
+        title: "Kinde Auth",
+        icon: KindeAuth,
       },
       {
         title: "Tailwind",
         icon: Tailwind,
       },
       {
-        title: "Nylas",
-        icon: Nylas,
+        title: "Stripe API",
+        icon: Stripe,
       },
       {
         title: "TypeScript",
         icon: TypeScript,
+      },
+      {
+        title: "Upstash - Redis",
+        icon: Upstash,
+      },
+      {
+        title: "Zod",
+        icon: Zod,
+      },
+      {
+        title: "UploadThing",
+        icon: UploadThing,
+      },
+      {
+        title: "Shadcn",
+        icon: ShadCN,
       },
     ],
     link: "https://shoplux-next.vercel.app/",
     githubLink: "https://github.com/Sammy212/shoplux-next",
     image: ShopLux,
   },
-  // {title: "TheUnforsaken House Website Redesign",
-  //   id: 1,
-  //   company: "TheUnforsaken House",
-  //   year: "2024",
-  //   description: "Redesigned a clinical psychology website in React, enhancing user experience, brand identity, and client engagement. As Product Manager and Lead Developer, I led a team to craft a welcoming, accessible interface with improved navigation and a new logo.",
-  //   techStacks: [
-  //     {
-  //       title: "React",
-  //       icon: ReactIcon,
-  //     },
-  //     {
-  //       title: "Calendly API",
-  //       icon: CalendlyIcon,
-  //     },
-  //     {
-  //       title: "Prisma",
-  //       icon: Prisma,
-  //     },
-  //     {
-  //       title: "Nodejs",
-  //       icon: Nodejs,
-  //     },
-  //     {
-  //       title: "Stripe API",
-  //       icon: Stripe,
-  //     },
-  //   ],
-  //   link: "https://theunforsaken.org",
-  //   githubLink: "https://github.com/Sammy212/private-repo",
-  //   image: TheUnforsaken,
-  // },
-  // {title: "SlashPoint Web and Mobile App Development",
-  //   id: 4,
-  //   company: "SlashPoint",
-  //   year: "2023",
-  //   description: "Build a fullstack ecommerce web and mobile application using React, Flutter, Laravel, Firebase for realtime data mutations, Paystack to accept payment",
-  //   techStacks: [
-  //     {
-  //       title: "React",
-  //       icon: ReactIcon,
-  //     },
-  //     {
-  //       title: "Calendly API",
-  //       icon: CalendlyIcon,
-  //     },
-  //     {
-  //       title: "Prisma",
-  //       icon: Prisma,
-  //     },
-  //     {
-  //       title: "Nodejs",
-  //       icon: Nodejs,
-  //     },
-  //     {
-  //       title: "Stripe API",
-  //       icon: Stripe,
-  //     },
-  //   ],
-  //   link: "https://slashp.datadocs.com.ng/",
-  //   githubLink: "https://github.com/Sammy212/private-repo",
-  //   image: SlashPoint,
-  // },
+  {title: "TheUnforsaken House Website Redesign",
+    id: 1,
+    company: "TheUnforsaken House",
+    year: "2024",
+    description: "Redesigned a clinical psychology website in React, enhancing user experience, brand identity, and client engagement. As Product Manager and Lead Developer, I led a team to craft a welcoming, accessible interface with improved navigation and a new logo.",
+    techStacks: [
+      {
+        title: "React",
+        icon: ReactIcon,
+      },
+      {
+        title: "Nodejs",
+        icon: Nodejs,
+      },
+      {
+        title: "SupaBase",
+        icon: SupaBase,
+      },
+      {
+        title: "Prisma",
+        icon: Prisma,
+      },
+      {
+        title: "Kinde Auth",
+        icon: KindeAuth,
+      },
+      {
+        title: "Calendly API",
+        icon: CalendlyIcon,
+      },
+      {
+        title: "Paystack API",
+        icon: Paystack,
+      },
+      {
+        title: "JavaScript",
+        icon: JavaScript,
+      },
+      {
+        title: "Zod",
+        icon: Zod,
+      },
+    ],
+    link: "https://theunforsaken.org",
+    githubLink: "https://github.com/Sammy212/private-repo",
+    image: TheUnforsaken,
+  },
+  {title: "SlashPoint Web and Mobile App Development",
+    id: 4,
+    company: "SlashPoint",
+    year: "2023",
+    description: "Build a fullstack ecommerce web and mobile application using React, Flutter, Laravel, Firebase for realtime data mutations, Paystack to accept payment",
+    techStacks: [
+      {
+        title: "React",
+        icon: ReactIcon,
+      },
+      {
+        title: "FireBase",
+        icon: FireBase,
+      },
+      {
+        title: "Amazon Web Services",
+        icon: AWS,
+      },
+      {
+        title: "Flutter",
+        icon: Flutter,
+      },
+      {
+        title: "Nodejs",
+        icon: Nodejs,
+      },
+      {
+        title: "Laravel",
+        icon: Laravel,
+      },
+      {
+        title: "Paystack API",
+        icon: Paystack,
+      },
+    ],
+    link: "https://slashp.datadocs.com.ng/",
+    githubLink: "https://github.com/Sammy212/private-repo",
+    image: SlashPoint,
+  },
 ];
 
 
