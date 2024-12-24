@@ -52,7 +52,8 @@ import {
   FaLinkedin, 
   FaSquareXTwitter, 
   FaInstagram, 
-  FaFacebook
+  FaFacebook,
+  FaDocker
 } from "react-icons/fa6";
 import { 
   SiJavascript,
@@ -61,6 +62,8 @@ import {
   SiMongodb,
   SiPrisma,
   SiJest,
+  SiPostman,
+  SiEslint,
 } from "react-icons/si";
 
 
@@ -111,6 +114,10 @@ export const techStack = [
     icon: FaHtml5,
   },
   {
+    tool: "Docler",
+    icon: FaDocker,
+  },
+  {
     tool: "CSS3",
     icon: FaCss3,
   },
@@ -147,6 +154,10 @@ export const techStack = [
     icon: SiJest,
   },
   {
+    tool: "EsLint",
+    icon: SiEslint,
+  },
+  {
     tool: "Redis",
     icon: DiRedis,
   },
@@ -178,6 +189,12 @@ export const tools = [
     image: FaGithub,
     left: "61%",
     top: "5%",
+  },
+  {
+    tool: "Postman",
+    image: SiPostman,
+    left: "11%",
+    top: "55%",
   },
   {
     tool: "Adobe Suite",
