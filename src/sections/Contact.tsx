@@ -10,7 +10,9 @@ import {
     Drawer,
     DrawerClose,
     DrawerContent,
+    DrawerDescription,
     DrawerHeader,
+    DrawerTitle,
     DrawerTrigger,
   } from "@/components/ui/drawer";
   
@@ -51,8 +53,10 @@ export function Contact() {
                                 className="bg-gray-900 text-white border-none"
                             >
                                 <DrawerHeader className="container">
+                                    <DrawerTitle></DrawerTitle>
                                     <DrawerClose />
                                 </DrawerHeader>
+                                <DrawerDescription></DrawerDescription>
                                 <div className="container pb-16">
                                     <h3 className="font-serif text-3xl">Let&apos;s Collaborate</h3>
                                     <div className="flex flex-col mt-7 gap-4 justify-between md:flex-row md:gap-8">
