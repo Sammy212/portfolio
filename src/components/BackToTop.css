@@ -1,0 +1,28 @@
+/* BackToTop.css */
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ed9d3c;
+    color: white;
+    border: none;
+    border-radius: 20%;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease-in-out;
+}
+
+.back-to-top:hover {
+    background-color: #DA498D;
+}
+
+.back-to-top.hidden {
+    opacity: 0;
+    pointer-events: none;
+}

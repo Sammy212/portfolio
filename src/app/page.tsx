@@ -1,3 +1,4 @@
+import BackToTop from "@/components/BackToTop";
 import { AboutMe } from "@/sections/AboutMe";
 import { Contact } from "@/sections/Contact";
 import { Footer } from "@/sections/Footer";
@@ -18,6 +19,7 @@ export default function Home() {
       <AboutMe/>
       <Contact/>
       <Footer/>
+      <BackToTop />
     </div>
   );
 }

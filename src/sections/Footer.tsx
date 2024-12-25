@@ -1,4 +1,5 @@
 import { footerLinks } from "@/data/data";
+import { FaGithub } from "react-icons/fa6";
 import Link from "next/link";
 
 export function Footer() {
@@ -13,7 +14,7 @@ export function Footer() {
             ></div>
             <div className="container">
                 <div className="flex flex-col items-center md:flex-row border-t border-white/15 py-6 text-sm gap-8 md:justify-between">
-                    <p className="text-white/40">&copy; 2024. All right reserved.</p>
+                    <p className="text-white/40 flex gap-2 items-center"><FaGithub/> <a href="https://github.com/Sammy212/portfolio" target="_blank">View Code</a></p>
                     <nav className="flex flex-col items-center gap-8 md:flex-row md:gap-5">
                         {
                             footerLinks.map((link) => (
