@@ -24,7 +24,7 @@ export function Header() {
                 >
                     About
                 </a>
-                <a href="./samuelAfolabiResume.pdf" className="nav-item" download aria-label="Download Resume">Resume</a>
+                <a href="./samuelAfo-Resume.pdf" className="nav-item" download aria-label="Download Resume">Resume</a>
                 <a 
                     onClick={() => scrolltoHash('contact')} 
                     className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900"
