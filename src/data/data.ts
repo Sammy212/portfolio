@@ -281,7 +281,7 @@ export const myProjects = [
         icon: Tailwind,
       },
       {
-        title: "Stripe API",
+        title: "Stripe",
         icon: Stripe,
       },
       {
@@ -336,7 +336,7 @@ export const myProjects = [
         icon: KindeAuth,
       },
       {
-        title: "Calendly API",
+        title: "Calendly",
         icon: CalendlyIcon,
       },
       {
