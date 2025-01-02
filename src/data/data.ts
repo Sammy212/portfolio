@@ -309,6 +309,49 @@ export const myProjects = [
     githubLink: "https://github.com/Sammy212/shoplux-next",
     image: ShopLux,
   },
+  // {title: "Fizzi Soda Landing Page",
+  //   id: 5,
+  //   company: "Fizzi",
+  //   year: "2025",
+  //   description: "Build a fullstack ecommerce web application using Next, Tailwind, Prisma, Redis, Neon, Stripe to accept payment and zod for form validation ",
+  //   techStacks: [
+  //     {
+  //       title: "Next 14",
+  //       icon: Next,
+  //     },
+  //     {
+  //       title: "React",
+  //       icon: ReactIcon,
+  //     },
+  //     {
+  //       title: "Prismic",
+  //       icon: Prisma, // update this icon
+  //     },
+  //     {
+  //       title: "TypeScript",
+  //       icon: TypeScript,
+  //     },
+  //     {
+  //       title: "Tailwind",
+  //       icon: Tailwind,
+  //     },
+  //     {
+  //       title: "Threejs",
+  //       icon: Neon, // update this icon
+  //     },
+  //     {
+  //       title: "GSAP",
+  //       icon: Neon, // update this icon
+  //     },
+  //     {
+  //       title: "Zustand",
+  //       icon: Neon, // update this icon
+  //     },
+  //   ],
+  //   link: "https://shoplux-next.vercel.app/",
+  //   githubLink: "https://github.com/Sammy212/fizzi-soda",
+  //   image: ShopLux,
+  // },
   {title: "TheUnforsaken House Website Redesign",
     id: 1,
     company: "TheUnforsaken House",
@@ -340,7 +383,7 @@ export const myProjects = [
         icon: CalendlyIcon,
       },
       {
-        title: "Paystack API",
+        title: "Paystack",
         icon: Paystack,
       },
       {
@@ -387,7 +430,7 @@ export const myProjects = [
         icon: Laravel,
       },
       {
-        title: "Paystack API",
+        title: "Paystack",
         icon: Paystack,
       },
     ],
@@ -442,7 +485,7 @@ export const testimonials = [
   {
     name: "Kolade Fadayomi",
     position: "CEO",
-    company: "TheUnit Home",
+    company: "TheUnit Homes",
     text: "Sam is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
     avatar: testimonialAvatar4,
   },
