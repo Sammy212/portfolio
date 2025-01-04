@@ -34,6 +34,7 @@ export default function RootLayout({
         <Script
           // Hotjar Tracking Code for https://samuel-afo.vercel.app/ 
           // to track and understand user's behavior to improve on User Experience
+          id= "hotjar"
           dangerouslySetInnerHTML={{
             __html: `
               (function(h,o,t,j,a,r){
