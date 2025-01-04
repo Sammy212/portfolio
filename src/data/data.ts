@@ -8,6 +8,7 @@ import ShopLux from "@/assets/images/shoplux.png";
 import SlashPoint from "@/assets/images/slashpoint.png";
 import TheUnforsaken from "@/assets/images/theunforsaken.png";
 import Calendly from "@/assets/images/calendly.png";
+import FizziSoda from "@/assets/images/fizzi-soda.png";
 
 import CalendlyIcon from "@/assets/icons/Calendly-icon.png";
 import Postgress from "@/assets/icons/postgress.png";
@@ -33,6 +34,11 @@ import Paystack from "@/assets/icons/paystack.png";
 import Upstash from "@/assets/icons/upstash.png";
 import UploadThing from "@/assets/icons/uploadthing-icon.png";
 import ReactIcon from "@/assets/icons/react.png";
+
+import Zustand from "@/assets/icons/zustand.png";
+import GSAP from "@/assets/icons/gsap.png";
+import ThreeJs from "@/assets/icons/threejs.png";
+import Prismic from "@/assets/icons/prismic-logo.png";
 
 
 import { RiNextjsFill } from "react-icons/ri";
@@ -309,49 +315,49 @@ export const myProjects = [
     githubLink: "https://github.com/Sammy212/shoplux-next",
     image: ShopLux,
   },
-  // {title: "Fizzi Soda Landing Page",
-  //   id: 5,
-  //   company: "Fizzi",
-  //   year: "2025",
-  //   description: "Build a fullstack ecommerce web application using Next, Tailwind, Prisma, Redis, Neon, Stripe to accept payment and zod for form validation ",
-  //   techStacks: [
-  //     {
-  //       title: "Next 14",
-  //       icon: Next,
-  //     },
-  //     {
-  //       title: "React",
-  //       icon: ReactIcon,
-  //     },
-  //     {
-  //       title: "Prismic",
-  //       icon: Prisma, // update this icon
-  //     },
-  //     {
-  //       title: "TypeScript",
-  //       icon: TypeScript,
-  //     },
-  //     {
-  //       title: "Tailwind",
-  //       icon: Tailwind,
-  //     },
-  //     {
-  //       title: "Threejs",
-  //       icon: Neon, // update this icon
-  //     },
-  //     {
-  //       title: "GSAP",
-  //       icon: Neon, // update this icon
-  //     },
-  //     {
-  //       title: "Zustand",
-  //       icon: Neon, // update this icon
-  //     },
-  //   ],
-  //   link: "https://shoplux-next.vercel.app/",
-  //   githubLink: "https://github.com/Sammy212/fizzi-soda",
-  //   image: ShopLux,
-  // },
+  {title: "Fizzi Soda Landing Page",
+    id: 5,
+    company: "Fizzi",
+    year: "2025",
+    description: "Fictious Soda (FIZZI) Brand's eCommerce Landing Page",
+    techStacks: [
+      {
+        title: "Next 14",
+        icon: Next,
+      },
+      {
+        title: "React",
+        icon: ReactIcon,
+      },
+      {
+        title: "Prismic",
+        icon: Prismic,
+      },
+      {
+        title: "TypeScript",
+        icon: TypeScript,
+      },
+      {
+        title: "Tailwind",
+        icon: Tailwind,
+      },
+      {
+        title: "Threejs",
+        icon: ThreeJs,
+      },
+      {
+        title: "GSAP",
+        icon: GSAP,
+      },
+      {
+        title: "Zustand",
+        icon: Zustand,
+      },
+    ],
+    link: "https://fizzi-beta.vercel.app/",
+    githubLink: "https://github.com/Sammy212/fizzi-soda",
+    image: FizziSoda,
+  },
   {title: "TheUnforsaken House Website Redesign",
     id: 1,
     company: "TheUnforsaken House",
