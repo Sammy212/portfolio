@@ -405,45 +405,45 @@ export const myProjects = [
     githubLink: "https://github.com/Sammy212/private-repo",
     image: TheUnforsaken,
   },
-  {title: "SlashPoint Web and Mobile App Development",
-    id: 4,
-    company: "SlashPoint",
-    year: "2023",
-    description: "Build a fullstack ecommerce web and mobile application using React, Flutter, Laravel, Firebase for realtime data mutations, Paystack to accept payment",
-    techStacks: [
-      {
-        title: "React",
-        icon: ReactIcon,
-      },
-      {
-        title: "FireBase",
-        icon: FireBase,
-      },
-      {
-        title: "Amazon Web Services",
-        icon: AWS,
-      },
-      {
-        title: "Flutter",
-        icon: Flutter,
-      },
-      {
-        title: "Nodejs",
-        icon: Nodejs,
-      },
-      {
-        title: "Laravel",
-        icon: Laravel,
-      },
-      {
-        title: "Paystack",
-        icon: Paystack,
-      },
-    ],
-    link: "https://slashp.datadocs.com.ng/",
-    githubLink: "https://github.com/Sammy212/private-repo",
-    image: SlashPoint,
-  },
+  // {title: "SlashPoint Web and Mobile App Development",
+  //   id: 4,
+  //   company: "SlashPoint",
+  //   year: "2023",
+  //   description: "Build a fullstack ecommerce web and mobile application using React, Flutter, Laravel, Firebase for realtime data mutations, Paystack to accept payment",
+  //   techStacks: [
+  //     {
+  //       title: "React",
+  //       icon: ReactIcon,
+  //     },
+  //     {
+  //       title: "FireBase",
+  //       icon: FireBase,
+  //     },
+  //     {
+  //       title: "Amazon Web Services",
+  //       icon: AWS,
+  //     },
+  //     {
+  //       title: "Flutter",
+  //       icon: Flutter,
+  //     },
+  //     {
+  //       title: "Nodejs",
+  //       icon: Nodejs,
+  //     },
+  //     {
+  //       title: "Laravel",
+  //       icon: Laravel,
+  //     },
+  //     {
+  //       title: "Paystack",
+  //       icon: Paystack,
+  //     },
+  //   ],
+  //   link: "https://slashp.datadocs.com.ng/",
+  //   githubLink: "https://github.com/Sammy212/private-repo",
+  //   image: SlashPoint,
+  // },
 ];
 
 

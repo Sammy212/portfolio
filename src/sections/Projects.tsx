@@ -33,6 +33,7 @@ export function Projects() {
                       <span>{project.year}</span>
                     </div>
                     <h3 className="font-serif text-2xl mt-2 md:text-4xl md:mt-5">{project.title}</h3>
+                    {/* <p className="text-white/75 mt-4 md:mt-5">{project.description}</p> */}
                     <hr 
                       className="border-t-2 border-white/5 mt-4 md:mt-5"
                     />
