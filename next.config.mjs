@@ -43,7 +43,7 @@ const nextConfig = {
 
     return config;
   },
-  output: "export",
+  // output: "export",
 };
 
 export default nextConfig;
