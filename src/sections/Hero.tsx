@@ -139,7 +139,7 @@ export function Hero() {
                     </div>
                     <div className="max-w-lg mx-auto">
                         <h1 className="font-serif text-2xl text-center mt-8 md:text-3xl">
-                            Mern Stack <br />
+                            Full Stack <br />
                             <span className="text-[#ed9d3c] tracking-widest text-4xl md:text-5xl">Developer</span>
                         </h1>
                         <p className="mt-4 text-center text-white/60">Hi! My name is Sam, I help businesses build beautiful user focused digital products.</p>
